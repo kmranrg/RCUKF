@@ -1,4 +1,4 @@
-# RCUKF: Reservoir Computing with Unscented Kalman Filter
+# RCUKF: Reservoir Computing with Unscented Kalman Filtering
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/)
