@@ -8,10 +8,10 @@ both RC and RC+UKF predictions for x, y, and z. Prints RMSE for each.
 import numpy as np
 import matplotlib.pyplot as plt
 
-from RCplusUKF import RC_UKF
-from RC import ReservoirComputer
-from noisy_lorenz import generate_noisy_lorenz_data
-from compute_error import calculate_rmse
+from rcukfpy.RCplusUKF import RC_UKF
+from rcukfpy.RC import ReservoirComputer
+from data_gen.noisy_lorenz import generate_noisy_lorenz_data
+from utils.compute_error import calculate_rmse
 
 def main():
     # 1. Generate noisy Lorenz data

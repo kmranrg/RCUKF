@@ -18,9 +18,9 @@ Dependencies:
 
 import numpy as np
 import matplotlib.pyplot as plt
-from RCplusUKF import RC_UKF
-from noisy_rossler import generate_noisy_rossler_data
-from compute_error import calculate_rmse
+from rcukfpy.RCplusUKF import RC_UKF
+from data_gen.noisy_rossler import generate_noisy_rossler_data
+from utils.compute_error import calculate_rmse
 
 
 def main():

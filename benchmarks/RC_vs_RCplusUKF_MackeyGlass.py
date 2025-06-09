@@ -16,9 +16,9 @@ Dependencies:
 import numpy as np
 import matplotlib.pyplot as plt
 
-from RCplusUKF import RC_UKF
-from RC import ReservoirComputer
-from noisy_mackey_glass import generate_noisy_mackey_glass_data
+from rcukfpy.RCplusUKF import RC_UKF
+from rcukfpy.RC import ReservoirComputer
+from data_gen.noisy_mackey_glass import generate_noisy_mackey_glass_data
 
 def main():
     # -------------------------------------------------------
