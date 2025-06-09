@@ -10,7 +10,7 @@
 ## 📘 Features
 
 - ✅ Model-free learning using Reservoir Computing (Echo State Network)
-- ✅ Online filtering with Unscented Kalman Filter
+- ✅ Filtering with Unscented Kalman Filter
 - ✅ No backpropagation: fast training using ridge regression
 - ✅ Supports chaotic systems like Lorenz, Rössler, Mackey-Glass
 - ✅ Plug-and-play modular design
